@@ -30,9 +30,11 @@ function AllMeetupsPage() {
   }, []);
 
   if (isLoading) {
-    <section>
-      <p>Loading...</p>
-    </section>;
+    return (
+      <section>
+        <p>Loading...</p>
+      </section>
+    );
   }
 
   return (
